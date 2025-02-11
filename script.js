@@ -1,9 +1,9 @@
 // Create test objects
-const myObj = {
+const student = {
   name: "yash",
-  getKeys: function () {
-    return Object.keys(this);
-  },
 };
 
-console.log(myObj.getKeys());
+function getKeys(obj) {
+  return Object.keys(obj);
+}
+console.log(getKeys(student)); 
